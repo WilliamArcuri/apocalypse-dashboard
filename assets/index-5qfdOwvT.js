@@ -101,9 +101,9 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
           aria-label="Watch Apocalypse explain how she works"
         >
           <span class="video-button-copy">
-            <span class="video-button-kicker">Video introduction</span>
-            <strong>See how it works</strong>
-            <span class="video-button-detail">Meet your portfolio execution manager</span>
+            <span class="video-button-kicker">Apocalypse 0.8</span>
+            <strong>The strategy, explained</strong>
+            <span class="video-button-detail">How your portfolio is managed</span>
           </span>
           <span class="video-play-icon" aria-hidden="true">
             <svg viewBox="0 0 12 14" focusable="false"><path d="M11.2 6.1a1 1 0 0 1 0 1.8L1.5 13.6A1 1 0 0 1 0 12.7V1.3A1 1 0 0 1 1.5.4l9.7 5.7Z" /></svg>
