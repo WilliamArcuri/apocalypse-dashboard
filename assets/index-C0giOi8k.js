@@ -67,19 +67,6 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
           </div>
         </div>
         <div class="topbar-actions">
-          <a
-            class="apocalypse-video-button"
-            href="https://youtube.com/shorts/N3d1-35Cgsc?feature=share"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Watch Apocalypse explain how she works"
-            title="Watch Apocalypse explain how she works"
-          >
-            <span class="video-play-icon" aria-hidden="true">
-              <svg viewBox="0 0 12 14" focusable="false"><path d="M11.2 6.1a1 1 0 0 1 0 1.8L1.5 13.6A1 1 0 0 1 0 12.7V1.3A1 1 0 0 1 1.5.4l9.7 5.7Z" /></svg>
-            </span>
-            <span class="video-button-label">Meet Apocalypse</span>
-          </a>
           <button class="refresh-button" id="refresh-button" type="button" aria-label="Refresh dashboard">
             <span class="refresh-icon" aria-hidden="true">↻</span><span class="refresh-label">Refresh</span>
           </button>
@@ -87,23 +74,41 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
       </header>
 
       <section class="net-worth-panel" aria-labelledby="net-worth-title">
-        <div class="net-worth-heading">
-          <div>
-            <p class="eyebrow" id="net-worth-title">Total portfolio value</p>
-            <strong class="net-worth-value" id="equity-value">&mdash;</strong>
+        <div class="net-worth-overview">
+          <div class="net-worth-heading">
+            <div>
+              <p class="eyebrow" id="net-worth-title">Total portfolio value</p>
+              <strong class="net-worth-value" id="equity-value">&mdash;</strong>
+            </div>
+            <span class="live-badge" id="environment-badge">LIVE</span>
           </div>
-          <span class="live-badge" id="environment-badge">LIVE</span>
+          <div class="net-worth-meta">
+            <div class="net-worth-stat">
+              <span>Open P/L</span>
+              <strong id="pnl-value" class="neutral">&mdash;</strong>
+            </div>
+            <div class="net-worth-stat invested-stat">
+              <span>Total invested</span>
+              <strong id="invested-value">&mdash;</strong>
+            </div>
+          </div>
         </div>
-        <div class="net-worth-meta">
-          <div class="net-worth-stat">
-            <span>Open P/L</span>
-            <strong id="pnl-value" class="neutral">&mdash;</strong>
-          </div>
-          <div class="net-worth-stat invested-stat">
-            <span>Total invested</span>
-            <strong id="invested-value">&mdash;</strong>
-          </div>
-        </div>
+        <a
+          class="apocalypse-video-button"
+          href="https://youtube.com/shorts/N3d1-35Cgsc?feature=share"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Watch Apocalypse explain how she works"
+        >
+          <span class="video-button-copy">
+            <span class="video-button-kicker">Video introduction</span>
+            <strong>See how it works</strong>
+            <span class="video-button-detail">Meet your portfolio execution manager</span>
+          </span>
+          <span class="video-play-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 14" focusable="false"><path d="M11.2 6.1a1 1 0 0 1 0 1.8L1.5 13.6A1 1 0 0 1 0 12.7V1.3A1 1 0 0 1 1.5.4l9.7 5.7Z" /></svg>
+          </span>
+        </a>
       </section>
 
       <section class="trade-composer" aria-label="Add a stock">
