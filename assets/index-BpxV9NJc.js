@@ -109,7 +109,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
         </div>
         <a
           class="apocalypse-video-button"
-          href="https://youtube.com/shorts/N3d1-35Cgsc?feature=share"
+          href="https://youtube.com/shorts/FURrYMDYUL4"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Watch Apocalypse explain how she works"
