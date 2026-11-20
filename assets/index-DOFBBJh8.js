@@ -59,7 +59,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
       <header class="topbar">
         <div class="brand-lockup">
           <div class="brand-mark" aria-hidden="true">
-            <img src="./icon.svg" alt="" />
+            <img src="./icon.png" alt="" />
           </div>
           <div class="brand-copy">
             <h1>APOCALYPSE</h1>
